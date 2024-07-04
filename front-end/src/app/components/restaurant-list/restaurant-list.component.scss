@@ -1,0 +1,69 @@
+/* restaurant-list.component.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.restaurant-list {
+  list-style: none;
+  padding: 0;
+}
+
+.restaurant-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.restaurant-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.restaurant-details {
+  flex-grow: 1;
+}
+
+.restaurant-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.restaurant-actions {
+  display: flex;
+  gap: 10px;
+}
